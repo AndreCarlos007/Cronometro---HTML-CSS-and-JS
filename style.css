@@ -1,0 +1,62 @@
+body{
+    background-image: url(img/image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.caixa{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.dentroCaixa{
+    width: 350px;
+    flex-direction: column;
+    background-color: rgba(250, 235, 215, 0.14);
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+    border: 2px solid black;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+#relogio{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.input0{
+    display: inline;
+    padding: 20px;
+    height: 30px;
+    width: 20px;
+}
+.buttom{
+    padding: 2px;
+    display: inline-block;
+}
+#iniciarbtn{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:focus {
+    border-color: #00ff6e9e;
+    box-shadow: 0 0 5px rgba(0, 255, 115, 0.448);
+}
+button::placeholder {
+    color: #aaa;
+}
+
